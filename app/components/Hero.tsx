@@ -25,10 +25,10 @@ const Hero = () => {
       <div className="relative z-10 container-custom text-center text-white">
         <div className="max-w-5xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center px-6 py-3 mb-8 bg-white bg-opacity-20 rounded-full backdrop-blur-sm">
-            <span className="text-yellow-300 mr-2">⚡</span>
-            <span className="font-semibold text-sm uppercase tracking-wide text-white">革新的AI予想システム</span>
-            <span className="text-yellow-300 ml-2">⚡</span>
+          <div className="inline-flex items-center px-6 py-3 mb-8 bg-yellow-400 rounded-full shadow-xl">
+            <span className="text-black mr-2">⚡</span>
+            <span className="font-black text-sm uppercase tracking-wide text-black">革新的AI予想システム</span>
+            <span className="text-black ml-2">⚡</span>
           </div>
 
           {/* Main heading */}
@@ -63,20 +63,20 @@ const Hero = () => {
 
           {/* Enhanced Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl p-8 card-hover">
-              <div className="text-5xl md:text-6xl font-black text-yellow-300 mb-4 text-glow">89.3%</div>
-              <div className="text-lg font-semibold uppercase tracking-wide text-white">的中率</div>
-              <div className="text-sm opacity-80 mt-2 text-white">過去12ヶ月実績</div>
+            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
+              <div className="text-5xl md:text-6xl font-black text-emerald-600 mb-4">89.3%</div>
+              <div className="text-lg font-black uppercase tracking-wide text-gray-900">的中率</div>
+              <div className="text-sm font-bold mt-2 text-gray-800">過去12ヶ月実績</div>
             </div>
-            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl p-8 card-hover">
-              <div className="text-5xl md:text-6xl font-black text-green-300 mb-4 text-glow">1,247</div>
-              <div className="text-lg font-semibold uppercase tracking-wide text-white">レース分析数</div>
-              <div className="text-sm opacity-80 mt-2 text-white">AI学習データ</div>
+            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
+              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-4">1,247</div>
+              <div className="text-lg font-black uppercase tracking-wide text-gray-900">レース分析数</div>
+              <div className="text-sm font-bold mt-2 text-gray-800">AI学習データ</div>
             </div>
-            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl p-8 card-hover">
-              <div className="text-5xl md:text-6xl font-black text-orange-300 mb-4 text-glow">340%</div>
-              <div className="text-lg font-semibold uppercase tracking-wide text-white">平均回収率</div>
-              <div className="text-sm opacity-80 mt-2 text-white">継続利用者平均</div>
+            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
+              <div className="text-5xl md:text-6xl font-black text-orange-600 mb-4">340%</div>
+              <div className="text-lg font-black uppercase tracking-wide text-gray-900">平均回収率</div>
+              <div className="text-sm font-bold mt-2 text-gray-800">継続利用者平均</div>
             </div>
           </div>
         </div>
