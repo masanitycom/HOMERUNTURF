@@ -29,13 +29,13 @@ body {
   }
 }
 
-/* ボタンスタイル */
+/* ボタンスタイル - 明るい背景 + 濃い文字 */
 .btn-primary {
-  background: linear-gradient(135deg, #0F4B2D, #2D8A4F) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #10B981, #34D399) !important;
+  color: #000000 !important;
   padding: 16px 32px;
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   transition: all 0.3s ease;
   border: none;
@@ -44,21 +44,22 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 15px rgba(15, 75, 45, 0.3);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(15, 75, 45, 0.4);
-  background: linear-gradient(135deg, #2D8A4F, #0F4B2D) !important;
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.6);
+  background: linear-gradient(135deg, #34D399, #10B981) !important;
+  color: #000000 !important;
 }
 
 .btn-secondary {
-  background: linear-gradient(135deg, #1565C0, #42A5F5) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #3B82F6, #60A5FA) !important;
+  color: #000000 !important;
   padding: 16px 32px;
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   transition: all 0.3s ease;
   border: none;
@@ -67,21 +68,22 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 15px rgba(21, 101, 192, 0.3);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
 }
 
 .btn-secondary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(21, 101, 192, 0.4);
-  background: linear-gradient(135deg, #42A5F5, #1565C0) !important;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
+  background: linear-gradient(135deg, #60A5FA, #3B82F6) !important;
+  color: #000000 !important;
 }
 
 .btn-accent {
-  background: linear-gradient(135deg, #FF6B35, #FFB366) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #F59E0B, #FCD34D) !important;
+  color: #000000 !important;
   padding: 16px 32px;
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   transition: all 0.3s ease;
   border: none;
@@ -90,13 +92,14 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
 }
 
 .btn-accent:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
-  background: linear-gradient(135deg, #FFB366, #FF6B35) !important;
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.6);
+  background: linear-gradient(135deg, #FCD34D, #F59E0B) !important;
+  color: #000000 !important;
 }
 
 /* テキストカラー */

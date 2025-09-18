@@ -53,10 +53,10 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <button className="btn-accent text-lg px-10 py-5 transform hover:scale-105">
+            <button className="bg-yellow-400 text-black px-10 py-5 rounded-xl text-lg font-black transition-all duration-300 hover:bg-yellow-300 transform hover:scale-105 shadow-lg">
               🚀 AI予想を体験する
             </button>
-            <button className="bg-white bg-opacity-20 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-xl text-lg font-bold transition-all duration-300 hover:bg-white hover:text-gray-900 transform hover:scale-105">
+            <button className="bg-emerald-400 text-black px-10 py-5 rounded-xl text-lg font-black transition-all duration-300 hover:bg-emerald-300 transform hover:scale-105 shadow-lg">
               🎯 今日の予想を見る
             </button>
           </div>
