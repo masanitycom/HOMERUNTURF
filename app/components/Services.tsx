@@ -128,11 +128,11 @@ const Services = () => {
                 最上位プランです。
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
-                <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                   <div className="text-3xl font-black text-yellow-400 mb-2">∞</div>
                   <div className="text-sm font-bold text-white">予想回数</div>
                 </div>
-                <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                   <div className="text-3xl font-black text-yellow-400 mb-2">24/7</div>
                   <div className="text-sm font-bold text-white">サポート</div>
                 </div>

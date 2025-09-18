@@ -67,27 +67,27 @@ const Results = () => {
             📈 月別パフォーマンス推移
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">7月</div>
               <div className="text-2xl font-black text-yellow-400">287%</div>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">8月</div>
               <div className="text-2xl font-black text-yellow-400">342%</div>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">9月</div>
               <div className="text-2xl font-black text-yellow-400">398%</div>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">10月</div>
               <div className="text-2xl font-black text-yellow-400">276%</div>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">11月</div>
               <div className="text-2xl font-black text-yellow-400">423%</div>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+            <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm text-center">
               <div className="text-sm font-bold text-white mb-2">12月</div>
               <div className="text-2xl font-black text-green-400">531%</div>
             </div>

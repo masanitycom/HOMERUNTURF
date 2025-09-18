@@ -69,19 +69,19 @@ const Concept = () => {
             </div>
 
             <div className="space-y-4">
-              <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+              <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-white">データ分析精度</span>
                   <span className="text-2xl font-black text-yellow-400">94.2%</span>
                 </div>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+              <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-white">戦略的判断力</span>
                   <span className="text-2xl font-black text-yellow-400">89.7%</span>
                 </div>
               </div>
-              <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+              <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-white">勝負勘再現度</span>
                   <span className="text-2xl font-black text-yellow-400">92.1%</span>

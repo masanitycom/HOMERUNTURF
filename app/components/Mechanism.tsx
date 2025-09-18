@@ -81,7 +81,7 @@ const Mechanism = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-6 backdrop-blur-sm">
                   <div className="text-center">
                     <div className="text-3xl font-black text-yellow-400 mb-2">127</div>
                     <div className="text-sm font-bold text-white mb-3">入力層ノード</div>
@@ -91,7 +91,7 @@ const Mechanism = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-6 backdrop-blur-sm">
                   <div className="text-center">
                     <div className="text-3xl font-black text-yellow-400 mb-2">512</div>
                     <div className="text-sm font-bold text-white mb-3">中間層ノード</div>
@@ -101,7 +101,7 @@ const Mechanism = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-6 backdrop-blur-sm">
                   <div className="text-center">
                     <div className="text-3xl font-black text-yellow-400 mb-2">18</div>
                     <div className="text-sm font-bold text-white mb-3">出力層ノード</div>
@@ -111,7 +111,7 @@ const Mechanism = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 rounded-xl p-6 backdrop-blur-sm">
                   <div className="text-center">
                     <div className="text-3xl font-black text-yellow-400 mb-2">94.2%</div>
                     <div className="text-sm font-bold text-white mb-3">学習精度</div>
