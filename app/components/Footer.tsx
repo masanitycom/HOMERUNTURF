@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="container-custom">
         <div className="py-16 border-b border-gray-700">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-1">
               <div className="font-display text-2xl font-black mb-6">
                 <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
@@ -83,27 +83,29 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-black text-white mb-6">アプリダウンロード</h3>
-              <div className="space-y-3">
-                <button className="w-full bg-black border border-gray-600 rounded-lg px-4 py-3 flex items-center hover:bg-gray-800 transition-colors">
-                  <div className="mr-3">
-                    <span className="text-2xl">🍎</span>
-                  </div>
-                  <div className="text-left">
-                    <div className="text-xs text-gray-400">Download on the</div>
-                    <div className="text-sm font-bold text-white">App Store</div>
-                  </div>
-                </button>
-                <button className="w-full bg-black border border-gray-600 rounded-lg px-4 py-3 flex items-center hover:bg-gray-800 transition-colors">
-                  <div className="mr-3">
-                    <span className="text-2xl">🤖</span>
-                  </div>
-                  <div className="text-left">
-                    <div className="text-xs text-gray-400">Get it on</div>
-                    <div className="text-sm font-bold text-white">Google Play</div>
-                  </div>
-                </button>
-              </div>
+              <h3 className="text-lg font-black text-white mb-6">お問い合わせ</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    メールサポート
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    チャットサポート
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    よくある質問
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    お客様の声
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -112,7 +114,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
-                © 2024 HOMERUN TURF. All rights reserved.
+                © 2025 HOMERUN TURF. All rights reserved.
               </p>
             </div>
             <div className="text-center">

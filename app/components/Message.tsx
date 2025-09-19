@@ -26,7 +26,7 @@ const Message = () => {
               </div>
               <h3 className="text-2xl font-black text-white mb-2">田中 雄一</h3>
               <p className="text-lg text-gray-200 mb-4">AI開発エンジニア / 元プロ野球選手</p>
-              <div className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm">
+              <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
                 <p className="text-sm text-gray-200">
                   東京大学工学部卒<br />
                   元読売ジャイアンツ投手<br />
@@ -97,7 +97,7 @@ const Message = () => {
         </div>
 
         <div className="mt-16">
-          <div className="bg-white bg-opacity-10 rounded-3xl p-8 md:p-12 backdrop-blur-sm">
+          <div className="bg-black bg-opacity-20 rounded-3xl p-8 md:p-12 backdrop-blur-sm">
             <h3 className="text-3xl md:text-4xl font-black text-center text-white mb-12">
               🏆 開発チームからのメッセージ
             </h3>

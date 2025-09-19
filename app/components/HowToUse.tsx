@@ -125,63 +125,6 @@ const HowToUse = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-gray-900 to-purple-900 rounded-3xl p-8 md:p-12 text-white mb-16">
-          <h3 className="text-3xl md:text-4xl font-black text-center text-white mb-12">
-            📱 使いやすいインターフェース
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
-              <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-2xl text-white">📊</span>
-                  </div>
-                  <h4 className="text-xl font-black text-white">
-                    リアルタイムダッシュボード
-                  </h4>
-                </div>
-                <p className="text-gray-200">
-                  レース情報、予想結果、投資収益率を
-                  一目で確認できる直感的な画面設計
-                </p>
-              </div>
-              <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-2xl text-white">🔔</span>
-                  </div>
-                  <h4 className="text-xl font-black text-white">
-                    スマート通知システム
-                  </h4>
-                </div>
-                <p className="text-gray-200">
-                  レース開始前、オッズ変動時、
-                  予想更新時に自動でお知らせ
-                </p>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-white bg-opacity-20 rounded-2xl p-8 backdrop-blur-sm">
-                <div className="text-6xl mb-4">📱</div>
-                <h4 className="text-2xl font-black text-white mb-4">
-                  モバイル完全対応
-                </h4>
-                <p className="text-gray-200 mb-6">
-                  iOS / Android アプリ対応<br />
-                  外出先でもスムーズに利用可能
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="bg-black text-white px-6 py-3 rounded-xl font-bold">
-                    📱 App Store
-                  </button>
-                  <button className="bg-green-600 text-white px-6 py-3 rounded-xl font-bold">
-                    📱 Google Play
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="text-center">
           <div className="bg-yellow-400 rounded-2xl p-8 shadow-xl">
