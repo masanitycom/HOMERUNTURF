@@ -21,108 +21,140 @@ const HowToUse = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="text-center">
-            <div className="relative mb-8">
-              <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
-                <span className="text-6xl text-white">1</span>
+        <div className="relative max-w-6xl mx-auto mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
+            {/* Step 1 */}
+            <div className="relative">
+              <div className="bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-blue-100">
+                <div className="relative mb-6">
+                  <div className="w-24 h-24 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <span className="text-5xl font-black text-white">1</span>
+                  </div>
+                  <div className="absolute -top-3 -right-3 w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    <span className="text-2xl">📝</span>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-black text-gray-900 mb-3 text-center">
+                  アカウント登録
+                </h3>
+                <p className="text-base text-gray-600 leading-relaxed mb-6 text-center">
+                  メールアドレスだけで<br />簡単登録
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center bg-blue-50 rounded-lg p-3 transition-all hover:bg-blue-100">
+                    <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">メールアドレス入力</span>
+                  </div>
+                  <div className="flex items-center bg-blue-50 rounded-lg p-3 transition-all hover:bg-blue-100">
+                    <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">認証コード確認</span>
+                  </div>
+                  <div className="flex items-center bg-blue-50 rounded-lg p-3 transition-all hover:bg-blue-100">
+                    <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">パスワード設定</span>
+                  </div>
+                </div>
               </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                <span className="text-xl text-black">📝</span>
+              {/* Arrow for desktop */}
+              <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
+                <div className="text-5xl text-purple-400">→</div>
+              </div>
+              {/* Arrow for mobile */}
+              <div className="md:hidden flex justify-center my-4">
+                <div className="text-5xl text-purple-400">↓</div>
               </div>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mb-4">
-              アカウント登録
-            </h3>
-            <p className="text-lg text-gray-800 leading-relaxed mb-6">
-              メールアドレスだけで簡単登録。
-              SNSアカウントでの登録も可能です。
-            </p>
-            <div className="bg-white rounded-xl p-4 shadow-lg">
-              <div className="text-sm text-gray-800 text-left space-y-2">
-                <div className="flex items-center">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span>メールアドレス入力</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span>認証コード確認</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span>パスワード設定</span>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="text-center">
-            <div className="relative mb-8">
-              <div className="w-32 h-32 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
-                <span className="text-6xl text-white">2</span>
+            {/* Step 2 */}
+            <div className="relative">
+              <div className="bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-emerald-100">
+                <div className="relative mb-6">
+                  <div className="w-24 h-24 bg-gradient-to-br from-emerald-500 via-emerald-600 to-emerald-700 rounded-2xl flex items-center justify-center mx-auto shadow-xl transform -rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <span className="text-5xl font-black text-white">2</span>
+                  </div>
+                  <div className="absolute -top-3 -right-3 w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    <span className="text-2xl">⚙️</span>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-black text-gray-900 mb-3 text-center">
+                  プラン選択
+                </h3>
+                <p className="text-base text-gray-600 leading-relaxed mb-6 text-center">
+                  最適なプランを<br />選択
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center bg-emerald-50 rounded-lg p-3 transition-all hover:bg-emerald-100">
+                    <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">無料プラン</span>
+                  </div>
+                  <div className="flex items-center bg-emerald-50 rounded-lg p-3 transition-all hover:bg-emerald-100">
+                    <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">ノーマルプラン</span>
+                  </div>
+                  <div className="flex items-center bg-emerald-50 rounded-lg p-3 transition-all hover:bg-emerald-100">
+                    <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">ゴールド・プラチナ</span>
+                  </div>
+                </div>
               </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                <span className="text-xl text-black">⚙️</span>
+              {/* Arrow for desktop */}
+              <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
+                <div className="text-5xl text-purple-400">→</div>
+              </div>
+              {/* Arrow for mobile */}
+              <div className="md:hidden flex justify-center my-4">
+                <div className="text-5xl text-purple-400">↓</div>
               </div>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mb-4">
-              プラン選択
-            </h3>
-            <p className="text-lg text-gray-800 leading-relaxed mb-6">
-              あなたに最適なプランを選択。
-              無料プランから始められます。
-            </p>
-            <div className="bg-white rounded-xl p-4 shadow-lg">
-              <div className="text-sm text-gray-800 text-left space-y-2">
-                <div className="flex items-center">
-                  <span className="text-emerald-600 mr-2">✓</span>
-                  <span>無料プラン</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-emerald-600 mr-2">✓</span>
-                  <span>ノーマルプラン</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-emerald-600 mr-2">✓</span>
-                  <span>ゴールドプラン</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-emerald-600 mr-2">✓</span>
-                  <span>プラチナプラン</span>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="text-center">
-            <div className="relative mb-8">
-              <div className="w-32 h-32 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
-                <span className="text-6xl text-white">3</span>
-              </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                <span className="text-xl text-black">🚀</span>
-              </div>
-            </div>
-            <h3 className="text-2xl font-black text-gray-900 mb-4">
-              予想開始
-            </h3>
-            <p className="text-lg text-gray-800 leading-relaxed mb-6">
-              レースを選択するだけで、
-              即座にAI予想が表示されます。
-            </p>
-            <div className="bg-white rounded-xl p-4 shadow-lg">
-              <div className="text-sm text-gray-800 text-left space-y-2">
-                <div className="flex items-center">
-                  <span className="text-orange-600 mr-2">✓</span>
-                  <span>レース選択</span>
+            {/* Step 3 */}
+            <div className="relative">
+              <div className="bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-orange-100">
+                <div className="relative mb-6">
+                  <div className="w-24 h-24 bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <span className="text-5xl font-black text-white">3</span>
+                  </div>
+                  <div className="absolute -top-3 -right-3 w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    <span className="text-2xl">🚀</span>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <span className="text-orange-600 mr-2">✓</span>
-                  <span>AI予想表示</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-orange-600 mr-2">✓</span>
-                  <span>馬券購入支援</span>
+                <h3 className="text-2xl font-black text-gray-900 mb-3 text-center">
+                  予想開始
+                </h3>
+                <p className="text-base text-gray-600 leading-relaxed mb-6 text-center">
+                  即座にAI予想を<br />表示
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center bg-orange-50 rounded-lg p-3 transition-all hover:bg-orange-100">
+                    <div className="w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">レース選択</span>
+                  </div>
+                  <div className="flex items-center bg-orange-50 rounded-lg p-3 transition-all hover:bg-orange-100">
+                    <div className="w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">AI予想表示</span>
+                  </div>
+                  <div className="flex items-center bg-orange-50 rounded-lg p-3 transition-all hover:bg-orange-100">
+                    <div className="w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-sm font-semibold text-gray-800">馬券購入支援</span>
+                  </div>
                 </div>
               </div>
             </div>
