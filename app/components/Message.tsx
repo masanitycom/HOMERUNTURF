@@ -146,7 +146,7 @@ const Message = () => {
               あなたの競馬ライフを次のレベルへ導きます。
             </p>
             <button className="bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105">
-              🚀 今すぐ無料体験を始める
+              🚀 今すぐ始める
             </button>
           </div>
         </div>

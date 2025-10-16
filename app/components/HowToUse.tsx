@@ -70,21 +70,25 @@ const HowToUse = () => {
             </h3>
             <p className="text-lg text-gray-800 leading-relaxed mb-6">
               あなたに最適なプランを選択。
-              7日間の無料体験から始められます。
+              無料プランから始められます。
             </p>
             <div className="bg-white rounded-xl p-4 shadow-lg">
               <div className="text-sm text-gray-800 text-left space-y-2">
                 <div className="flex items-center">
                   <span className="text-emerald-600 mr-2">✓</span>
-                  <span>無料体験プラン</span>
+                  <span>無料プラン</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-emerald-600 mr-2">✓</span>
-                  <span>ベーシックプラン</span>
+                  <span>ノーマルプラン</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-emerald-600 mr-2">✓</span>
-                  <span>プレミアムプラン</span>
+                  <span>ゴールドプラン</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="text-emerald-600 mr-2">✓</span>
+                  <span>プラチナプラン</span>
                 </div>
               </div>
             </div>
@@ -129,15 +133,15 @@ const HowToUse = () => {
         <div className="text-center">
           <div className="bg-yellow-400 rounded-2xl p-8 shadow-xl">
             <h3 className="text-3xl font-black text-black mb-4">
-              🎯 今すぐ無料体験を始めよう！
+              🎯 今すぐ始めよう！
             </h3>
             <p className="text-xl text-black leading-relaxed max-w-3xl mx-auto mb-6">
               たった3分で始められる簡単セットアップ。
-              7日間完全無料でお試しいただけます。
+              無料プランからお試しいただけます。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105">
-                🚀 無料登録を開始
+                🚀 登録を開始
               </button>
               <button className="bg-white text-black px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-100 transition-all duration-300 shadow-lg border-2 border-black">
                 📹 使い方動画を見る

@@ -139,10 +139,10 @@ const Footer = () => {
               🚀 今すぐ始めませんか？
             </h3>
             <p className="text-gray-200 mb-4">
-              7日間無料体験で、AIの予想精度を実感してください
+              AIの予想精度を実感してください
             </p>
             <button className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-black hover:bg-yellow-300 transition-all duration-300 shadow-lg transform hover:scale-105">
-              無料体験を開始
+              今すぐ始める
             </button>
           </div>
         </div>
