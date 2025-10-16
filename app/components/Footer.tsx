@@ -111,18 +111,11 @@ const Footer = () => {
         </div>
 
         <div className="py-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
                 © 2025 HOMERUN TURF. All rights reserved.
               </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-gradient-to-r from-yellow-400 to-orange-400 rounded-xl p-4">
-                <p className="text-black font-black text-sm">
-                  🎯 現在の的中率: 89.3%
-                </p>
-              </div>
             </div>
             <div className="text-center md:text-right">
               <div className="flex flex-wrap justify-center md:justify-end gap-4 text-sm">

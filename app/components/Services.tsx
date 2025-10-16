@@ -117,39 +117,16 @@ const Services = () => {
         </div>
 
         <div className="bg-gradient-to-r from-gray-900 to-blue-900 rounded-3xl p-8 md:p-12 text-white">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-3xl md:text-4xl font-black text-white mb-6">
-                🎯 プレミアムプラン
-              </h3>
-              <p className="text-xl text-gray-200 leading-relaxed mb-8">
-                全ての機能を使い放題！
-                プロレベルの予想精度を実現する
-                最上位プランです。
-              </p>
-              <div className="grid grid-cols-2 gap-4 mb-8">
-                <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
-                  <div className="text-3xl font-black text-yellow-400 mb-2">∞</div>
-                  <div className="text-sm font-bold text-white">予想回数</div>
-                </div>
-                <div className="bg-black bg-opacity-30 rounded-xl p-4 backdrop-blur-sm">
-                  <div className="text-3xl font-black text-yellow-400 mb-2">24/7</div>
-                  <div className="text-sm font-bold text-white">サポート</div>
-                </div>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl md:text-8xl font-black text-yellow-400 mb-4">
-                ¥9,800
-              </div>
-              <div className="text-xl text-gray-200 mb-8">/ 月額</div>
-              <button className="bg-yellow-400 text-black px-8 py-4 rounded-xl text-xl font-black hover:bg-yellow-300 transition-all duration-300 shadow-lg transform hover:scale-105">
-                🚀 無料体験を始める
-              </button>
-              <p className="text-sm text-gray-300 mt-4">
-                ※ 7日間無料トライアル付き
-              </p>
-            </div>
+          <div className="text-center">
+            <h3 className="text-3xl md:text-4xl font-black text-white mb-6">
+              圧倒的な実績が
+            </h3>
+            <h3 className="text-3xl md:text-4xl font-black text-white mb-6">
+              証明する精度
+            </h3>
+            <p className="text-xl text-gray-200 leading-relaxed max-w-3xl mx-auto">
+              データで証明された、AIの予想精度と収益性
+            </p>
           </div>
         </div>
       </div>

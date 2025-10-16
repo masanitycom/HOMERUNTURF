@@ -61,24 +61,6 @@ const Hero = () => {
             </button>
           </div>
 
-          {/* Enhanced Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
-              <div className="text-5xl md:text-6xl font-black text-emerald-600 mb-4">89.3%</div>
-              <div className="text-lg font-black uppercase tracking-wide text-gray-900">的中率</div>
-              <div className="text-sm font-bold mt-2 text-gray-800">過去12ヶ月実績</div>
-            </div>
-            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
-              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-4">1,247</div>
-              <div className="text-lg font-black uppercase tracking-wide text-gray-900">レース分析数</div>
-              <div className="text-sm font-bold mt-2 text-gray-800">AI学習データ</div>
-            </div>
-            <div className="bg-white rounded-2xl p-8 card-hover shadow-xl">
-              <div className="text-5xl md:text-6xl font-black text-orange-600 mb-4">340%</div>
-              <div className="text-lg font-black uppercase tracking-wide text-gray-900">平均回収率</div>
-              <div className="text-sm font-bold mt-2 text-gray-800">継続利用者平均</div>
-            </div>
-          </div>
         </div>
       </div>
 

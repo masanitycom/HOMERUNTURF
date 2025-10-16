@@ -8,7 +8,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "AIの予想精度はどの程度ですか？",
-      answer: "過去12ヶ月の実績で89.3%の的中率を記録しています。特に馬連では89.3%、3連複では67.8%、3連単でも34.2%という高い精度を維持しています。継続的な学習により、精度は向上し続けています。"
+      answer: "AIは膨大なデータを学習し、継続的に精度を向上させています。レース条件や馬の状態など、多角的な分析により、データに基づいた予想を提供します。"
     },
     {
       question: "野球の戦略がなぜ競馬に役立つのですか？",
@@ -119,9 +119,6 @@ const FAQ = () => {
               <button className="bg-white text-indigo-900 px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-100 transition-all duration-300 shadow-lg">
                 💬 チャットサポート
               </button>
-            </div>
-            <div className="mt-6 text-sm text-gray-300">
-              <p>平均回答時間: 2時間以内 | サポート満足度: 98.7%</p>
             </div>
           </div>
         </div>
