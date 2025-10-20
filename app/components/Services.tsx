@@ -116,6 +116,7 @@ const Services = () => {
           </div>
         </div>
 
+        {/* プランセクション */}
         <div className="mt-24">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 mb-6 bg-purple-600 rounded-full shadow-lg">
@@ -132,132 +133,163 @@ const Services = () => {
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-              4つのプランから、ご利用スタイルに合わせてお選びいただけます
+              2つのカテゴリー、5つのプランから、ご利用スタイルに合わせてお選びいただけます
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* 無料プラン */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 shadow-xl border-2 border-gray-200">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">無料プラン</h3>
-                <div className="text-4xl font-black text-gray-600 mb-2">¥0</div>
-                <div className="text-sm text-gray-600">/ 月</div>
+          {/* AI診断激走穴馬カテゴリー */}
+          <div className="mb-20">
+            <div className="text-center mb-10">
+              <div className="inline-flex items-center px-8 py-4 mb-4 bg-gradient-to-r from-red-500 to-orange-500 rounded-full shadow-lg">
+                <span className="text-white mr-3 text-2xl">🔥</span>
+                <span className="font-black text-xl uppercase tracking-wide text-white">AI診断激走穴馬</span>
+                <span className="text-white ml-3 text-2xl">🔥</span>
               </div>
-              <ul className="space-y-3 text-gray-800 mb-8">
-                <li className="flex items-start">
-                  <span className="text-gray-600 mr-2">✓</span>
-                  <span className="text-sm">基本的なレース情報閲覧</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gray-600 mr-2">✓</span>
-                  <span className="text-sm">週末のみAI予想閲覧</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gray-600 mr-2">✓</span>
-                  <span className="text-sm">1日3レースまで</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gray-400 mr-2">✗</span>
-                  <span className="text-sm text-gray-400">詳細分析レポート</span>
-                </li>
-              </ul>
-              <button className="w-full bg-gray-600 text-white px-6 py-3 rounded-xl font-black hover:bg-gray-700 transition-all duration-300">
-                無料で始める
-              </button>
+              <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+                高配当を狙う穴馬に特化したプラン
+              </p>
             </div>
 
-            {/* ノーマルプラン */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-xl border-2 border-blue-300">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">ノーマル</h3>
-                <div className="text-4xl font-black text-blue-600 mb-2">¥3,980</div>
-                <div className="text-sm text-gray-600">/ 月</div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {/* ルーキープラン */}
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-xl border-2 border-blue-300">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-black text-gray-900 mb-2">ルーキープラン</h3>
+                  <div className="text-5xl font-black text-blue-600 mb-2">¥3,000</div>
+                  <div className="text-sm text-gray-600">/ 月</div>
+                </div>
+                <ul className="space-y-3 text-gray-800 mb-8">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">平場単勝10倍以上の馬単勝</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">穴馬紐推奨</span>
+                  </li>
+                </ul>
+                <button className="w-full bg-blue-600 text-white px-6 py-4 rounded-xl font-black hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  このプランを選択
+                </button>
               </div>
-              <ul className="space-y-3 text-gray-800 mb-8">
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span className="text-sm">全レースAI予想閲覧</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span className="text-sm">リアルタイム更新</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">✓</span>
-                  <span className="text-sm">基本的な分析レポート</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">✗</span>
-                  <span className="text-sm text-gray-400">パーソナル学習</span>
-                </li>
-              </ul>
-              <button className="w-full bg-blue-600 text-white px-6 py-3 rounded-xl font-black hover:bg-blue-700 transition-all duration-300">
-                このプランを選択
-              </button>
+
+              {/* レギュラープラン */}
+              <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl p-8 shadow-xl border-2 border-emerald-400">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-black text-gray-900 mb-2">レギュラープラン</h3>
+                  <div className="text-5xl font-black text-emerald-600 mb-2">¥5,000</div>
+                  <div className="text-sm text-gray-600">/ 月</div>
+                </div>
+                <ul className="space-y-3 text-gray-800 mb-8">
+                  <li className="flex items-start">
+                    <span className="text-emerald-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">ルーキープラン全機能</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-emerald-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">オススメの複勝</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-emerald-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">最終レース予想</span>
+                  </li>
+                </ul>
+                <button className="w-full bg-emerald-600 text-white px-6 py-4 rounded-xl font-black hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  このプランを選択
+                </button>
+              </div>
+
+              {/* エースプラン */}
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 shadow-xl border-2 border-orange-400 relative">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-orange-400 text-white px-4 py-1 rounded-full text-xs font-black">
+                  穴馬人気No.1
+                </div>
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-black text-gray-900 mb-2">エースプラン</h3>
+                  <div className="text-5xl font-black text-orange-600 mb-2">¥10,000</div>
+                  <div className="text-sm text-gray-600">/ 月</div>
+                </div>
+                <ul className="space-y-3 text-gray-800 mb-8">
+                  <li className="flex items-start">
+                    <span className="text-orange-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">レギュラープラン全機能</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-orange-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">メインレース予想</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-orange-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">この一頭は外さない！超固い馬公開</span>
+                  </li>
+                </ul>
+                <button className="w-full bg-orange-600 text-white px-6 py-4 rounded-xl font-black hover:bg-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  このプランを選択
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* 究極の軸馬カテゴリー */}
+          <div>
+            <div className="text-center mb-10">
+              <div className="inline-flex items-center px-8 py-4 mb-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full shadow-lg">
+                <span className="text-white mr-3 text-2xl">⚡</span>
+                <span className="font-black text-xl uppercase tracking-wide text-white">究極の軸馬</span>
+                <span className="text-white ml-3 text-2xl">⚡</span>
+              </div>
+              <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+                確実性の高い軸馬選定に特化したプラン
+              </p>
             </div>
 
-            {/* ゴールドプラン */}
-            <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 shadow-xl border-2 border-yellow-400 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-xs font-black">
-                人気No.1
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* ベーシックプラン */}
+              <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl p-8 shadow-xl border-2 border-indigo-300">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-black text-gray-900 mb-2">ベーシックプラン</h3>
+                  <div className="text-5xl font-black text-indigo-600 mb-2">¥3,000</div>
+                  <div className="text-sm text-gray-600">/ 月</div>
+                </div>
+                <ul className="space-y-3 text-gray-800 mb-8">
+                  <li className="flex items-start">
+                    <span className="text-indigo-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">本日のオススメ軸馬（複勝推奨）</span>
+                  </li>
+                </ul>
+                <button className="w-full bg-indigo-600 text-white px-6 py-4 rounded-xl font-black hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  このプランを選択
+                </button>
               </div>
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">ゴールド</h3>
-                <div className="text-4xl font-black text-yellow-600 mb-2">¥7,980</div>
-                <div className="text-sm text-gray-600">/ 月</div>
-              </div>
-              <ul className="space-y-3 text-gray-800 mb-8">
-                <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2">✓</span>
-                  <span className="text-sm">全レースAI予想閲覧</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2">✓</span>
-                  <span className="text-sm">詳細分析レポート</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2">✓</span>
-                  <span className="text-sm">パーソナル学習機能</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2">✓</span>
-                  <span className="text-sm">戦略的買い目提案</span>
-                </li>
-              </ul>
-              <button className="w-full bg-yellow-400 text-black px-6 py-3 rounded-xl font-black hover:bg-yellow-500 transition-all duration-300">
-                このプランを選択
-              </button>
-            </div>
 
-            {/* プラチナプラン */}
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 shadow-xl border-2 border-purple-400">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">プラチナ</h3>
-                <div className="text-4xl font-black text-purple-600 mb-2">¥14,980</div>
-                <div className="text-sm text-gray-600">/ 月</div>
+              {/* アルティメットプラン */}
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 shadow-xl border-2 border-purple-400 relative">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-purple-400 text-white px-4 py-1 rounded-full text-xs font-black">
+                  軸馬人気No.1
+                </div>
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-black text-gray-900 mb-2">アルティメットプラン</h3>
+                  <div className="text-5xl font-black text-purple-600 mb-2">¥8,000</div>
+                  <div className="text-sm text-gray-600">/ 月</div>
+                </div>
+                <ul className="space-y-3 text-gray-800 mb-8">
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">ベーシックプラン全機能</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">鉄板軸馬の話（展開予想と馬券の狙い方）</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 mr-2 mt-1">✓</span>
+                    <span className="text-sm font-semibold">競馬はこうやって勝つ（ワイド、3連複の買い目発表）</span>
+                  </li>
+                </ul>
+                <button className="w-full bg-purple-600 text-white px-6 py-4 rounded-xl font-black hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  このプランを選択
+                </button>
               </div>
-              <ul className="space-y-3 text-gray-800 mb-8">
-                <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">✓</span>
-                  <span className="text-sm">ゴールドプラン全機能</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">✓</span>
-                  <span className="text-sm">優先サポート（24時間）</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">✓</span>
-                  <span className="text-sm">専属アナリスト相談</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">✓</span>
-                  <span className="text-sm">重賞レース特別分析</span>
-                </li>
-              </ul>
-              <button className="w-full bg-purple-600 text-white px-6 py-3 rounded-xl font-black hover:bg-purple-700 transition-all duration-300">
-                このプランを選択
-              </button>
             </div>
           </div>
         </div>
