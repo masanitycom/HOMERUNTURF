@@ -93,19 +93,19 @@ const HowToUse = () => {
                     <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span className="text-sm font-semibold text-gray-800">無料プラン</span>
+                    <span className="text-sm font-semibold text-gray-800">ノーマルプラン（無料）</span>
                   </div>
                   <div className="flex items-center bg-emerald-50 rounded-lg p-3 transition-all hover:bg-emerald-100">
                     <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span className="text-sm font-semibold text-gray-800">ノーマルプラン</span>
+                    <span className="text-sm font-semibold text-gray-800">ゴールドプラン</span>
                   </div>
                   <div className="flex items-center bg-emerald-50 rounded-lg p-3 transition-all hover:bg-emerald-100">
                     <div className="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span className="text-sm font-semibold text-gray-800">ゴールド・プラチナ</span>
+                    <span className="text-sm font-semibold text-gray-800">プラチナプラン</span>
                   </div>
                 </div>
               </div>
@@ -169,7 +169,7 @@ const HowToUse = () => {
             </h3>
             <p className="text-xl text-black leading-relaxed max-w-3xl mx-auto mb-6">
               たった3分で始められる簡単セットアップ。
-              無料プランからお試しいただけます。
+              ノーマルプラン（無料）からお試しいただけます。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105">
