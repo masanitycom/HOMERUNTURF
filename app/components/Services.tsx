@@ -138,10 +138,10 @@ const Services = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* ノーマルプラン */}
+            {/* ルーキープラン */}
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-xl border-2 border-blue-300">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">ノーマルプラン</h3>
+                <h3 className="text-2xl font-black text-gray-900 mb-2">ルーキープラン</h3>
                 <div className="text-5xl font-black text-blue-600 mb-2">無料</div>
                 <div className="text-sm text-gray-600">&nbsp;</div>
               </div>
@@ -164,65 +164,65 @@ const Services = () => {
               </button>
             </div>
 
-            {/* ゴールドプラン */}
-            <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 shadow-xl border-2 border-yellow-400 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-xs font-black">
+            {/* レギュラープラン */}
+            <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl p-8 shadow-xl border-2 border-emerald-400 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-emerald-400 text-white px-4 py-1 rounded-full text-xs font-black">
                 人気No.1
               </div>
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">ゴールドプラン</h3>
-                <div className="text-5xl font-black text-yellow-600 mb-2">¥4,980</div>
+                <h3 className="text-2xl font-black text-gray-900 mb-2">レギュラープラン</h3>
+                <div className="text-5xl font-black text-emerald-600 mb-2">¥4,980</div>
                 <div className="text-sm text-gray-600">/ 月</div>
               </div>
               <ul className="space-y-3 text-gray-800 mb-8">
                 <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2 mt-1">✓</span>
+                  <span className="text-emerald-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">全レースAI予想</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2 mt-1">✓</span>
+                  <span className="text-emerald-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">リアルタイム更新</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2 mt-1">✓</span>
+                  <span className="text-emerald-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">詳細分析レポート</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-yellow-600 mr-2 mt-1">✓</span>
+                  <span className="text-emerald-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">パーソナル学習機能</span>
                 </li>
               </ul>
-              <button className="w-full bg-yellow-600 text-white px-6 py-4 rounded-xl font-black hover:bg-yellow-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <button className="w-full bg-emerald-600 text-white px-6 py-4 rounded-xl font-black hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 このプランを選択
               </button>
             </div>
 
-            {/* プラチナプラン */}
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 shadow-xl border-2 border-purple-400">
+            {/* エースプラン */}
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 shadow-xl border-2 border-orange-400">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2">プラチナプラン</h3>
-                <div className="text-5xl font-black text-purple-600 mb-2">¥9,980</div>
+                <h3 className="text-2xl font-black text-gray-900 mb-2">エースプラン</h3>
+                <div className="text-5xl font-black text-orange-600 mb-2">¥9,980</div>
                 <div className="text-sm text-gray-600">/ 月</div>
               </div>
               <ul className="space-y-3 text-gray-800 mb-8">
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2 mt-1">✓</span>
-                  <span className="text-sm font-semibold">ゴールドプラン全機能</span>
+                  <span className="text-orange-600 mr-2 mt-1">✓</span>
+                  <span className="text-sm font-semibold">レギュラープラン全機能</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2 mt-1">✓</span>
+                  <span className="text-orange-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">優先サポート（24時間）</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2 mt-1">✓</span>
+                  <span className="text-orange-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">専属アナリスト相談</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2 mt-1">✓</span>
+                  <span className="text-orange-600 mr-2 mt-1">✓</span>
                   <span className="text-sm font-semibold">重賞レース特別分析</span>
                 </li>
               </ul>
-              <button className="w-full bg-purple-600 text-white px-6 py-4 rounded-xl font-black hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <button className="w-full bg-orange-600 text-white px-6 py-4 rounded-xl font-black hover:bg-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 このプランを選択
               </button>
             </div>
