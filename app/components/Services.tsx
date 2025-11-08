@@ -145,22 +145,14 @@ const Services = () => {
                 <div className="text-5xl font-black text-blue-600 mb-2">無料</div>
                 <div className="text-sm text-gray-600">&nbsp;</div>
               </div>
-              <ul className="space-y-3 text-gray-800 mb-8">
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2 mt-1">✓</span>
-                  <span className="text-sm font-semibold">基本的なレース情報閲覧</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2 mt-1">✓</span>
-                  <span className="text-sm font-semibold">週末のみAI予想</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2 mt-1">✓</span>
-                  <span className="text-sm font-semibold">1日3レースまで</span>
-                </li>
-              </ul>
-              <button className="w-full bg-blue-600 text-white px-6 py-4 rounded-xl font-black hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                このプランを選択
+              <div className="flex items-center justify-center h-32 mb-8">
+                <div className="text-center">
+                  <p className="text-3xl font-black text-blue-600 mb-2">Coming Soon</p>
+                  <p className="text-sm text-gray-600">近日公開予定</p>
+                </div>
+              </div>
+              <button className="w-full bg-gray-400 text-white px-6 py-4 rounded-xl font-black cursor-not-allowed" disabled>
+                準備中
               </button>
             </div>
 
