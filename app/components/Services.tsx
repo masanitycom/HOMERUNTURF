@@ -192,9 +192,14 @@ const Services = () => {
                   <span className="text-sm font-semibold">パーソナル学習機能</span>
                 </li>
               </ul>
-              <button className="w-full bg-emerald-600 text-white px-6 py-4 rounded-xl font-black hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <a
+                href="https://note.com/homerunturf/membership"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-emerald-600 text-white px-6 py-4 rounded-xl font-black hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
+              >
                 このプランを選択
-              </button>
+              </a>
             </div>
 
             {/* エースプラン */}
@@ -222,9 +227,14 @@ const Services = () => {
                   <span className="text-sm font-semibold">重賞レース特別分析</span>
                 </li>
               </ul>
-              <button className="w-full bg-orange-600 text-white px-6 py-4 rounded-xl font-black hover:bg-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <a
+                href="https://note.com/homerunturf/membership"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-orange-600 text-white px-6 py-4 rounded-xl font-black hover:bg-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
+              >
                 このプランを選択
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -145,9 +145,14 @@ const Message = () => {
               野球で培った戦略的思考と最新のAI技術で、
               あなたの競馬ライフを次のレベルへ導きます。
             </p>
-            <button className="bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105">
+            <a
+              href="https://note.com/homerunturf/membership"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105"
+            >
               🚀 今すぐ始める
-            </button>
+            </a>
           </div>
         </div>
       </div>

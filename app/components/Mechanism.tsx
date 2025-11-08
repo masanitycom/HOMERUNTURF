@@ -122,12 +122,6 @@ const Mechanism = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="text-center">
-                <button className="bg-yellow-400 text-black px-6 py-3 rounded-xl text-lg font-black hover:bg-yellow-300 transition-all duration-300 shadow-lg">
-                  📊 技術詳細資料をダウンロード
-                </button>
-              </div>
             </div>
           </div>
         </div>

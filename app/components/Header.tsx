@@ -59,9 +59,14 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <button className="hidden md:block bg-yellow-400 text-black px-6 py-3 rounded-lg font-black hover:bg-yellow-300 transition-colors">
+          <a
+            href="https://note.com/homerunturf/membership"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:block bg-yellow-400 text-black px-6 py-3 rounded-lg font-black hover:bg-yellow-300 transition-colors"
+          >
             今日の予想を見る
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -114,9 +119,14 @@ const Header = () => {
               >
                 FAQ
               </button>
-              <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-black w-full">
+              <a
+                href="https://note.com/homerunturf/membership"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-yellow-400 text-black px-6 py-3 rounded-lg font-black w-full"
+              >
                 今日の予想を見る
-              </button>
+              </a>
             </nav>
           </div>
         )}
