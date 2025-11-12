@@ -72,15 +72,15 @@ const FAQ = () => {
               >
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-white hover:bg-opacity-50 transition-all duration-300"
+                  className="w-full px-8 py-6 text-left flex items-start justify-between hover:bg-white hover:bg-opacity-50 transition-all duration-300"
                 >
-                  <h3 className="text-lg md:text-xl font-black text-gray-900 pr-4">
+                  <h3 className="text-lg md:text-xl font-black text-gray-900 pr-4 flex-1">
                     {faq.question}
                   </h3>
-                  <div className={`w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center transform transition-transform duration-300 ${
+                  <div className={`w-10 h-10 min-w-[2.5rem] bg-indigo-600 rounded-full flex items-center justify-center transform transition-transform duration-300 flex-shrink-0 ${
                     openIndex === index ? 'rotate-90' : ''
                   }`}>
-                    <span className="text-white text-xl font-bold">›</span>
+                    <span className="text-white text-2xl font-bold leading-none">›</span>
                   </div>
                 </button>
                 {openIndex === index && (
