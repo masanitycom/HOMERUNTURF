@@ -134,8 +134,7 @@ const Services = () => {
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-              3つのプランから、ご利用スタイルに合わせて<br className="md:hidden" />
-              お選びいただけます
+              3つのプランから、<br className="md:hidden" />ご利用スタイルに合わせて<br className="md:hidden" />お選びいただけます
             </p>
           </div>
 

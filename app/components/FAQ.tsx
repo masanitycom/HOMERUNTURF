@@ -78,9 +78,9 @@ const FAQ = () => {
                     {faq.question}
                   </h3>
                   <div className={`w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center transform transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-45' : ''
+                    openIndex === index ? 'rotate-90' : ''
                   }`}>
-                    <span className="text-white text-xl font-bold">+</span>
+                    <span className="text-white text-xl font-bold">›</span>
                   </div>
                 </button>
                 {openIndex === index && (
