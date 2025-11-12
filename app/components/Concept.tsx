@@ -17,14 +17,11 @@ const Concept = () => {
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-            データ分析の先にある「直感」を、<br className="md:hidden" />
-            AIが再現。
-            <br className="hidden md:inline" />
-            野球で培った戦略的思考を<br className="md:hidden" />
-            競馬に応用し、
-            <br className="hidden md:inline" />
-            単なる数字では見えない<br className="md:hidden" />
-            勝負の本質を捉えます。
+            データ分析の先にある「直感」を、AIが再現。
+            <br />
+            野球で培った戦略的思考を競馬に応用し、
+            <br />
+            単なる数字では見えない勝負の本質を捉えます。
           </p>
         </div>
 
@@ -100,9 +97,8 @@ const Concept = () => {
               🚀 革新的アプローチ
             </h3>
             <p className="text-xl text-black leading-relaxed max-w-3xl mx-auto mb-6">
-              単なるデータ分析ではなく、<br className="md:hidden" />
-              スポーツの本質を理解した「戦略的AI」が、<br className="md:hidden" />
-              あなたの勝率を劇的に向上させます。
+              単なるデータ分析ではなく、スポーツの本質を理解した<br className="md:hidden" />
+              「戦略的AI」が、あなたの勝率を劇的に向上させます。
             </p>
             <button className="bg-black text-white px-8 py-4 rounded-xl text-lg font-black hover:bg-gray-800 transition-all duration-300 shadow-lg">
               🎯 詳細を確認する
