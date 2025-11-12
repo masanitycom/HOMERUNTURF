@@ -17,7 +17,8 @@ const HowToUse = () => {
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-            誰でも簡単に使える、直感的なインターフェース
+            誰でも簡単に使える、<br className="md:hidden" />
+            直感的なインターフェース
           </p>
         </div>
 
@@ -134,7 +135,7 @@ const HowToUse = () => {
                   予想開始
                 </h3>
                 <p className="text-base text-gray-600 leading-relaxed mb-6 text-center">
-                  即座にAI予想を<br />表示
+                  即座にAI予想を表示
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center bg-orange-50 rounded-lg p-3 transition-all hover:bg-orange-100">
@@ -168,8 +169,10 @@ const HowToUse = () => {
               🎯 今すぐ始めよう！
             </h3>
             <p className="text-xl text-black leading-relaxed max-w-3xl mx-auto mb-6">
-              たった3分で始められる簡単セットアップ。
-              ルーキープラン（無料）からお試しいただけます。
+              たった3分で始められる<br className="md:hidden" />
+              簡単セットアップ。<br className="md:hidden" />
+              ルーキープラン（無料）から<br className="md:hidden" />
+              お試しいただけます。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-black text-white px-8 py-4 rounded-xl text-xl font-black hover:bg-gray-800 transition-all duration-300 shadow-lg transform hover:scale-105">

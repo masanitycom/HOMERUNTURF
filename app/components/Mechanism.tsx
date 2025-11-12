@@ -17,7 +17,8 @@ const Mechanism = () => {
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-            ブラックボックスではない、透明性の高いAI予想システム
+            ブラックボックスではない、<br className="md:hidden" />
+            透明性の高いAI予想システム
           </p>
         </div>
 
@@ -31,23 +32,24 @@ const Mechanism = () => {
                 STEP 1: データ収集
               </h3>
               <p className="text-gray-800">
-                過去レース結果、馬体重、騎手データ、
-                馬場状態など1000万件以上の
-                データを24時間体制で収集
+                過去レース(試合)結果、馬体重、<br className="md:hidden" />
+                騎手（選手）データ、馬場状態など<br className="md:hidden" />
+                1000万件以上のデータを<br className="md:hidden" />
+                24時間体制で収集
               </p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-xl card-hover">
               <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mb-4">
-                <span className="text-2xl text-white">⚾</span>
+                <span className="text-2xl text-white">⚙️</span>
               </div>
               <h3 className="text-xl font-black text-gray-900 mb-3">
-                STEP 2: 野球戦略適用
+                STEP 2: 戦略適用
               </h3>
               <p className="text-gray-800">
-                投手交代のタイミング、守備陣形
-                などの戦略パターンを競馬の
-                レース展開予想に応用
+                レース（試合）展開、<br className="md:hidden" />
+                交代のタイミング、<br className="md:hidden" />
+                戦略パターンを予想に応用
               </p>
             </div>
 
@@ -59,8 +61,8 @@ const Mechanism = () => {
                 STEP 3: AI判定
               </h3>
               <p className="text-gray-800">
-                機械学習アルゴリズムが戦略的
-                思考と統計データを融合し、
+                機械学習アルゴリズムが<br className="md:hidden" />
+                戦略的思考と統計データを融合し、<br className="md:hidden" />
                 最適な予想を算出
               </p>
             </div>
@@ -76,7 +78,8 @@ const Mechanism = () => {
                   ニューラルネットワーク構造
                 </h3>
                 <p className="text-lg text-gray-200">
-                  野球の戦術思考をモデル化した独自のAI設計
+                  野球の戦術思考をモデル化した<br className="md:hidden" />
+                  独自のAI設計
                 </p>
               </div>
 
@@ -86,7 +89,7 @@ const Mechanism = () => {
                     <div className="text-3xl font-black text-yellow-400 mb-2">127</div>
                     <div className="text-sm font-bold text-white mb-3">入力層ノード</div>
                     <div className="text-xs text-gray-200">
-                      馬データ、騎手、馬場、天候、
+                      馬データ、騎手、馬場、天候、<br className="md:hidden" />
                       オッズなどを多角的に分析
                     </div>
                   </div>
@@ -96,7 +99,7 @@ const Mechanism = () => {
                     <div className="text-3xl font-black text-yellow-400 mb-2">512</div>
                     <div className="text-sm font-bold text-white mb-3">中間層ノード</div>
                     <div className="text-xs text-gray-200">
-                      野球戦略パターンを学習した
+                      野球戦略パターンを学習した<br className="md:hidden" />
                       深層学習レイヤー
                     </div>
                   </div>
@@ -106,7 +109,7 @@ const Mechanism = () => {
                     <div className="text-3xl font-black text-yellow-400 mb-2">18</div>
                     <div className="text-sm font-bold text-white mb-3">出力層ノード</div>
                     <div className="text-xs text-gray-200">
-                      各馬の勝率、連対率、
+                      各馬の勝率、連対率、<br className="md:hidden" />
                       3着内率を精密予想
                     </div>
                   </div>
@@ -116,7 +119,7 @@ const Mechanism = () => {
                     <div className="text-3xl font-black text-yellow-400 mb-2">94.2%</div>
                     <div className="text-sm font-bold text-white mb-3">学習精度</div>
                     <div className="text-xs text-gray-200">
-                      10万レース以上のデータで
+                      10万レース以上のデータで<br className="md:hidden" />
                       検証済みの高精度
                     </div>
                   </div>
@@ -128,7 +131,8 @@ const Mechanism = () => {
 
         <div className="bg-white rounded-2xl p-8 shadow-xl">
           <h3 className="text-3xl font-black text-gray-900 text-center mb-8">
-            🔍 予想プロセスの透明性
+            <span className="hidden md:inline">🔍 予想プロセスの透明性</span>
+            <span className="md:hidden">🔍 予想プロセスの<br />透明性</span>
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -139,8 +143,8 @@ const Mechanism = () => {
                 データ重み付け
               </h4>
               <p className="text-sm text-gray-800">
-                各要素がどの程度
-                予想に影響するかを
+                各要素がどの程度<br className="md:hidden" />
+                予想に影響するかを<br className="md:hidden" />
                 数値で可視化
               </p>
             </div>
@@ -152,8 +156,8 @@ const Mechanism = () => {
                 根拠の表示
               </h4>
               <p className="text-sm text-gray-800">
-                なぜその予想に
-                至ったかの理由を
+                なぜその予想に<br className="md:hidden" />
+                至ったかの理由を<br className="md:hidden" />
                 分かりやすく説明
               </p>
             </div>
@@ -165,8 +169,8 @@ const Mechanism = () => {
                 信頼度スコア
               </h4>
               <p className="text-sm text-gray-800">
-                予想の確実性を
-                パーセンテージで
+                予想の確実性を<br className="md:hidden" />
+                パーセンテージで<br className="md:hidden" />
                 表示する
               </p>
             </div>
@@ -178,8 +182,8 @@ const Mechanism = () => {
                 リアルタイム更新
               </h4>
               <p className="text-sm text-gray-800">
-                オッズや馬場状態の
-                変化に応じて予想を
+                オッズや馬場状態の<br className="md:hidden" />
+                変化に応じて予想を<br className="md:hidden" />
                 随時アップデート
               </p>
             </div>

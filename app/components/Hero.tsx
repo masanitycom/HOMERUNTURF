@@ -47,7 +47,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-3xl mb-12 opacity-95 leading-relaxed font-medium">
-            <span className="text-yellow-300">データの先にある勝負勘</span>を、
+            <span className="text-yellow-300">データの先にある勝負勘</span>を<br className="md:hidden" />
             <span className="text-orange-300">AIが形にしました。</span>
           </p>
 

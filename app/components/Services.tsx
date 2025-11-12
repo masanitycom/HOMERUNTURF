@@ -17,7 +17,8 @@ const Services = () => {
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-            野球戦略とAI分析を融合させた、革新的な競馬予想システム
+            野球戦略とAI分析を融合させた、<br className="md:hidden" />
+            革新的な競馬予想システム
           </p>
         </div>
 
@@ -30,7 +31,7 @@ const Services = () => {
               リアルタイム予想
             </h3>
             <p className="text-lg text-gray-800 leading-relaxed text-center mb-6">
-              レース開始直前まで更新される
+              レース開始直前まで更新される<br className="md:hidden" />
               最新のAI予想データ
             </p>
             <ul className="space-y-3 text-gray-800">
@@ -61,7 +62,7 @@ const Services = () => {
               戦略的分析レポート
             </h3>
             <p className="text-lg text-gray-800 leading-relaxed text-center mb-6">
-              野球の戦術思考を応用した
+              野球の戦術思考を応用した<br className="md:hidden" />
               詳細な馬券戦略の提案
             </p>
             <ul className="space-y-3 text-gray-800">
@@ -92,7 +93,7 @@ const Services = () => {
               パーソナル学習
             </h3>
             <p className="text-lg text-gray-800 leading-relaxed text-center mb-6">
-              あなたの投票履歴から学習し
+              あなたの投票履歴から学習し<br className="md:hidden" />
               個人最適化された予想を提供
             </p>
             <ul className="space-y-3 text-gray-800">
@@ -133,7 +134,8 @@ const Services = () => {
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-gray-800 leading-relaxed max-w-4xl mx-auto">
-              3つのプランから、ご利用スタイルに合わせてお選びいただけます
+              3つのプランから、<br className="md:hidden" />
+              ご利用スタイルに合わせてお選びいただけます
             </p>
           </div>
 
